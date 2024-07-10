@@ -1,0 +1,339 @@
+[gd_scene load_steps=56 format=3 uid="uid://dg4gwirlk0mnj"]
+
+[ext_resource type="Script" path="res://scripts/ogre.gd" id="1_ixjlc"]
+[ext_resource type="Texture2D" uid="uid://c6o07sxw15aei" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack1.png" id="2_adgnb"]
+[ext_resource type="Texture2D" uid="uid://b6jsy06lodkei" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack2.png" id="3_6djpk"]
+[ext_resource type="Texture2D" uid="uid://bc2vf8gflhjgv" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack3.png" id="4_qengj"]
+[ext_resource type="Texture2D" uid="uid://bqv7w4p8soqf4" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack4.png" id="5_nhf1b"]
+[ext_resource type="Texture2D" uid="uid://cgkg001t1xr31" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack5.png" id="6_6ncv2"]
+[ext_resource type="Texture2D" uid="uid://b0lr0cg2qj3c8" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack6.png" id="7_btpja"]
+[ext_resource type="Texture2D" uid="uid://d0skyttitbu3v" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack7.png" id="8_upbe2"]
+[ext_resource type="Texture2D" uid="uid://blk3ucppu0p8l" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack8.png" id="9_hlnjg"]
+[ext_resource type="Texture2D" uid="uid://bexgfj8sd7leb" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack9.png" id="10_kyw5u"]
+[ext_resource type="Texture2D" uid="uid://doi2nbgbtgaue" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack10.png" id="11_6ltdn"]
+[ext_resource type="Texture2D" uid="uid://ewc7tbdmdt7i" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - attack11.png" id="12_n4086"]
+[ext_resource type="Texture2D" uid="uid://bncxhh5ymt2di" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death1.png" id="13_c83nm"]
+[ext_resource type="Texture2D" uid="uid://c2ib7q66x1c7g" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death2.png" id="14_0v5iy"]
+[ext_resource type="Texture2D" uid="uid://y8hicq38uqaf" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death3.png" id="15_6jb3d"]
+[ext_resource type="Texture2D" uid="uid://dse8ulwhdr2fa" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death4.png" id="16_ipxt6"]
+[ext_resource type="Texture2D" uid="uid://bmjxn6pic8wpx" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death5.png" id="17_nt42a"]
+[ext_resource type="Texture2D" uid="uid://bbioxmvh2l7mj" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death6.png" id="18_ftj56"]
+[ext_resource type="Texture2D" uid="uid://u71fil8dty3f" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death7.png" id="19_gelpk"]
+[ext_resource type="Texture2D" uid="uid://djmh0gp0r1cyh" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death8.png" id="20_m3gth"]
+[ext_resource type="Texture2D" uid="uid://cylg6p0dc5x4i" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death9.png" id="21_mybqq"]
+[ext_resource type="Texture2D" uid="uid://mfprtws5oklb" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death10.png" id="22_oakuk"]
+[ext_resource type="Texture2D" uid="uid://cprv81ddujfj2" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death11.png" id="23_xccay"]
+[ext_resource type="Texture2D" uid="uid://dw5crpvfpo2g1" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death12.png" id="24_smtj2"]
+[ext_resource type="Texture2D" uid="uid://cf56gnm3ec8d6" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death13.png" id="25_rqm3k"]
+[ext_resource type="Texture2D" uid="uid://ddxmr0wdjxfu4" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death14.png" id="26_4qc1e"]
+[ext_resource type="Texture2D" uid="uid://c6phqahwhr6r8" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death15.png" id="27_mvybh"]
+[ext_resource type="Texture2D" uid="uid://dlvq1bpqhu3ka" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death16.png" id="28_65g8i"]
+[ext_resource type="Texture2D" uid="uid://bkbyj5h2u6d1b" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death17.png" id="29_et1ge"]
+[ext_resource type="Texture2D" uid="uid://cdlucldve65r7" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death18.png" id="30_xvjfv"]
+[ext_resource type="Texture2D" uid="uid://bhspxopmsbu1x" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death19.png" id="31_kk635"]
+[ext_resource type="Texture2D" uid="uid://b385dv2cqoj0r" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death20.png" id="32_3pxeg"]
+[ext_resource type="Texture2D" uid="uid://ytub0be3r1gl" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle1.png" id="33_casph"]
+[ext_resource type="Texture2D" uid="uid://83d5nyd6icup" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle2.png" id="34_bd5vw"]
+[ext_resource type="Texture2D" uid="uid://smcwnhaqvs4q" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle3.png" id="35_k5iid"]
+[ext_resource type="Texture2D" uid="uid://bayo21e17d0p4" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle4.png" id="36_257op"]
+[ext_resource type="Texture2D" uid="uid://gdia1wpnxdr8" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle5.png" id="37_miyrc"]
+[ext_resource type="Texture2D" uid="uid://hanxfdltqrky" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle6.png" id="38_hylkb"]
+[ext_resource type="Texture2D" uid="uid://dlcp1nws5147u" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk1.png" id="39_kpe36"]
+[ext_resource type="Texture2D" uid="uid://pw8qm6fw74w3" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk2.png" id="40_bd2fr"]
+[ext_resource type="Texture2D" uid="uid://cfcgqub20kak1" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk3.png" id="41_rg3s2"]
+[ext_resource type="Texture2D" uid="uid://bb37ks5eu1dce" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk4.png" id="42_ewlf4"]
+[ext_resource type="Texture2D" uid="uid://ucd62v73l7x3" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk5.png" id="43_yst1b"]
+[ext_resource type="Texture2D" uid="uid://dtva2xf07ch5n" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk6.png" id="44_kqmfi"]
+[ext_resource type="Texture2D" uid="uid://bdnfshgklghaq" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk7.png" id="45_vrjvl"]
+[ext_resource type="Texture2D" uid="uid://vch0v6n53y5e" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk8.png" id="46_6y7dy"]
+[ext_resource type="Texture2D" uid="uid://cuptf60d5brgw" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk9.png" id="47_qdlmu"]
+[ext_resource type="Texture2D" uid="uid://4kmduri2lu6t" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk10.png" id="48_te44d"]
+[ext_resource type="Texture2D" uid="uid://mjvxxnsyah4b" path="res://Assets/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk11.png" id="49_1om1d"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pndvp"]
+animations = [{
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("2_adgnb")
+}, {
+"duration": 0.5,
+"texture": ExtResource("3_6djpk")
+}, {
+"duration": 0.5,
+"texture": ExtResource("4_qengj")
+}, {
+"duration": 0.5,
+"texture": ExtResource("5_nhf1b")
+}, {
+"duration": 0.5,
+"texture": ExtResource("6_6ncv2")
+}, {
+"duration": 0.5,
+"texture": ExtResource("7_btpja")
+}, {
+"duration": 0.5,
+"texture": ExtResource("8_upbe2")
+}, {
+"duration": 0.5,
+"texture": ExtResource("9_hlnjg")
+}, {
+"duration": 0.5,
+"texture": ExtResource("10_kyw5u")
+}, {
+"duration": 0.5,
+"texture": ExtResource("11_6ltdn")
+}, {
+"duration": 0.5,
+"texture": ExtResource("12_n4086")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_c83nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0v5iy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_6jb3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ipxt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_nt42a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ftj56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_gelpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_m3gth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mybqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oakuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xccay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_smtj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_rqm3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_4qc1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_mvybh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_65g8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_et1ge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_xvjfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kk635")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_3pxeg")
+}],
+"loop": false,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_casph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_bd5vw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_k5iid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_257op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_miyrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_hylkb")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.7,
+"texture": ExtResource("39_kpe36")
+}, {
+"duration": 0.7,
+"texture": ExtResource("40_bd2fr")
+}, {
+"duration": 0.7,
+"texture": ExtResource("41_rg3s2")
+}, {
+"duration": 0.7,
+"texture": ExtResource("42_ewlf4")
+}, {
+"duration": 0.7,
+"texture": ExtResource("43_yst1b")
+}, {
+"duration": 0.7,
+"texture": ExtResource("44_kqmfi")
+}, {
+"duration": 0.7,
+"texture": ExtResource("45_vrjvl")
+}, {
+"duration": 0.7,
+"texture": ExtResource("46_6y7dy")
+}, {
+"duration": 0.7,
+"texture": ExtResource("47_qdlmu")
+}, {
+"duration": 0.7,
+"texture": ExtResource("48_te44d")
+}, {
+"duration": 0.7,
+"texture": ExtResource("49_1om1d")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8aggg"]
+radius = 6.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vq3w3"]
+size = Vector2(70, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k8rkx"]
+size = Vector2(15, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cknvc"]
+size = Vector2(18, 21.9808)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4libs"]
+size = Vector2(18, 15)
+
+[node name="ogre" type="CharacterBody2D"]
+scale = Vector2(1.3, 1.3)
+script = ExtResource("1_ixjlc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_pndvp")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_8aggg")
+
+[node name="death_timer" type="Timer" parent="."]
+wait_time = 0.2
+
+[node name="take_damage_cooldown" type="Timer" parent="."]
+wait_time = 0.7
+
+[node name="detection_area_right" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area_right"]
+position = Vector2(35, 0)
+shape = SubResource("RectangleShape2D_vq3w3")
+
+[node name="detection_area_left" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area_left"]
+position = Vector2(-35, 0)
+shape = SubResource("RectangleShape2D_vq3w3")
+
+[node name="idle_timer" type="Timer" parent="."]
+wait_time = 3.3
+autostart = true
+
+[node name="aggro_timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="hit_left" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hit_left"]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(-14, -1)
+shape = SubResource("RectangleShape2D_k8rkx")
+
+[node name="hit_right" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hit_right"]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(14, -1)
+shape = SubResource("RectangleShape2D_k8rkx")
+
+[node name="hit_up" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hit_up"]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(0, -13.2981)
+shape = SubResource("RectangleShape2D_cknvc")
+
+[node name="hit_down" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hit_down"]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_4libs")
+
+[node name="atk_cooldown" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="strike_right" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="strike_right"]
+polygon = PackedVector2Array(0, -22, 6, -11, 6, 2, 6, 9, 26, 9, 26, 9, 26, -3, 21, -14, 10, -22)
+
+[node name="strike_left" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="strike_left"]
+scale = Vector2(-1, 1)
+polygon = PackedVector2Array(0, -22, 6, -11, 6, 2, 6, 9, 26, 9, 26, 9, 26, -3, 21, -14, 10, -22)
+
+[node name="blink_timer" type="Timer" parent="."]
+wait_time = 0.4
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="timeout" from="death_timer" to="." method="_on_death_timer_timeout"]
+[connection signal="timeout" from="take_damage_cooldown" to="." method="_on_take_damage_cooldown_timeout"]
+[connection signal="body_entered" from="detection_area_right" to="." method="_on_detection_area_right_body_entered"]
+[connection signal="body_exited" from="detection_area_right" to="." method="_on_detection_area_right_body_exited"]
+[connection signal="body_entered" from="detection_area_left" to="." method="_on_detection_area_left_body_entered"]
+[connection signal="body_exited" from="detection_area_left" to="." method="_on_detection_area_left_body_exited"]
+[connection signal="timeout" from="idle_timer" to="." method="_on_idle_timer_timeout"]
+[connection signal="timeout" from="aggro_timer" to="." method="_on_aggro_timer_timeout"]
+[connection signal="body_entered" from="hit_left" to="." method="_on_hit_left_body_entered"]
+[connection signal="body_exited" from="hit_left" to="." method="_on_hit_left_body_exited"]
+[connection signal="body_entered" from="hit_right" to="." method="_on_hit_right_body_entered"]
+[connection signal="body_exited" from="hit_right" to="." method="_on_hit_right_body_exited"]
+[connection signal="body_entered" from="hit_up" to="." method="_on_hit_up_body_entered"]
+[connection signal="body_exited" from="hit_up" to="." method="_on_hit_up_body_exited"]
+[connection signal="body_entered" from="hit_down" to="." method="_on_hit_down_body_entered"]
+[connection signal="body_exited" from="hit_down" to="." method="_on_hit_down_body_exited"]
+[connection signal="timeout" from="atk_cooldown" to="." method="_on_atk_cooldown_timeout"]
+[connection signal="body_entered" from="strike_right" to="." method="_on_strike_right_body_entered"]
+[connection signal="body_exited" from="strike_right" to="." method="_on_strike_right_body_exited"]
+[connection signal="body_entered" from="strike_left" to="." method="_on_strike_left_body_entered"]
+[connection signal="body_exited" from="strike_left" to="." method="_on_strike_left_body_exited"]
+[connection signal="timeout" from="blink_timer" to="." method="_on_blink_timer_timeout"]
