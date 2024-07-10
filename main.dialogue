@@ -1,0 +1,32 @@
+~ level_1_lock
+
+if global.level_1_lock == true:
+	: You need to be level 5 to enter this area.
+
+=> END
+
+~ level_2_lock
+
+if global.level_2_lock == true:
+	: You need to be level 10 to enter this area.
+
+=> END
+
+~ potion_heal
+{{global.player_hp_max / 4}} health restored.
+=> END
+
+~ bed_heal
+Health fully healed.
+=> END
+
+~ level_up
+Level Up! {{(global.player_exp_limit/5) - 1}} -> {{global.player_exp_limit/5}}
+Attack increased {{global.player_atk - 5}} -> {{global.player_atk}}. Max Health increased {{global.player_hp_max - 20}} -> {{global.player_hp_max}}.
+if global.player_exp_limit % 10 == 5:
+	: Max potions increased {{global.player_max_potion - 1}} -> {{global.player_max_potion}}
+=> END
+
+~ potion_chest
+Potions fully filled.
+=> END

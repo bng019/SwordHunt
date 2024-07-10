@@ -1,0 +1,66 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbugs0attb0gp"]
+
+[ext_resource type="Script" path="res://scripts/game_over.gd" id="1_18tma"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5h2iw"]
+bg_color = Color(0.054902, 0.054902, 0.054902, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7y220"]
+bg_color = Color(0.407843, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="GameOver" type="Node2D"]
+script = ExtResource("1_18tma")
+
+[node name="GameOverScreen" type="CanvasLayer" parent="."]
+
+[node name="PanelContainer" type="PanelContainer" parent="GameOverScreen"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5h2iw")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameOverScreen"]
+offset_right = 1152.0
+offset_bottom = 648.0
+alignment = 1
+
+[node name="Title" type="Label" parent="GameOverScreen"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -124.0
+offset_right = 576.0
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "You Died"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="GameOverScreen"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -197.0
+offset_top = -248.0
+offset_right = 203.0
+offset_bottom = -185.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_7y220")
+text = "Respawn"
+
+[connection signal="pressed" from="GameOverScreen/Button" to="." method="_on_button_pressed"]
